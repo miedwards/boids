@@ -2,10 +2,10 @@ clear all;
 N=20;
 separation_minrange = 0.0;
 separation_maxrange = 0.5;
-alignment_minrange = 0.4;
-alignment_maxrange = 1.0;
-cohesion_minrange = 0.9;
-cohesion_maxrange = 1.5;
+alignment_minrange = 0.2;
+alignment_maxrange = 1.2;
+cohesion_minrange = 0.8;
+cohesion_maxrange = 1.9;
 
 position =5*rand(2,N);
 h=0.001;
