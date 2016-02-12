@@ -74,7 +74,7 @@ for ii=2:30000
             fromPos = position(:,fromBd);
             toPos = position(:, toBd);
             plot(fromPos(1):(toPos(1) - fromPos(1))*1e-3:toPos(1),...
-                fromPos(2):(toPos(2) - fromPos(2))*1e-3:toPos(2),'r');
+                fromPos(2):(toPos(2) - fromPos(2))*1e-3:toPos(2),'y');
             %hold on
         end
     end
@@ -101,8 +101,8 @@ for ii=2:30000
         if fromBd < toBd
             fromPos = position(:,fromBd);
             toPos = position(:, toBd);
-            plot(fromPos(1):(toPos(1) - fromPos(1))*1e-3:toPos(1),...
-                fromPos(2):(toPos(2) - fromPos(2))*1e-3:toPos(2),'b');
+            plot(fromPos(1):(toPos(1) - fromPos(1))*1e-2:toPos(1),...
+                fromPos(2):(toPos(2) - fromPos(2))*1e-2:toPos(2),'r');
             %hold on
         end
     end
