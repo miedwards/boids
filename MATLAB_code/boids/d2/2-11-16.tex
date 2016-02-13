@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\usepackage{subcaption}
+\usepackage{tikz}
+
+\title{Notes for Autonomous Robotic Networks}
+\author{Professor Jason Isaacs}
+\date{i2/11/16}
+
+\begin{document}
+\maketitle
+\section{More mathematical fundamentals}
+\[ G=(VE) \]
+Then 
+\[ E \subseteq V \times V \]
+Where $G$ is the graph, $V$ is the vertex set and $E$ is the edge set. 
+There are classes of graphs. 
+\begin{itemize}
+\item A ``Complete Graph'' is a completely connected graph, where each node is
+connected to every other node. 
+\item A ``Path Graph'' $P_n$ for $n$-verticies is a graph comprised of a path. A
+path graph can be any graph isomorphic to the graph
+\[ P_n = (\{v_1, v_2,\ldots,v_3\},E_p) \]
+where 
+\[ (v_i, v_j) \in E_p \text{ iff } j = i+1, i = 1,2\ldots, n-1 \]
+That is, it is the ``connectivity opposite'' of a complete graph that is still
+fully connected.
+
+\item A Cycle graph is a graph that contains a single cycle through all the
+nodes. 
+\[ C_n = \{V, E \}, (v_i,v_j)\in E_c \text{ iff } |i-j| = \pm 1 \mod n \]
+
+\item A ``Star Graph'' $S$ is a with one internal node, that is connected to all
+other nodes. 
+
+\[ S_n = (V,E_s) \text{ where each edge connects to the ``center node'' } \]
+
+\item A regular graph, is defined by the following property. Each vertex of a $k$-regular has degree $k$. 
+
+\item Bipartite Graph. The vertex set is the union of two disjoin vertex sets
+$V_1$ and $V_2$. 
+If 
+\[ |V_1| = m, |V_2| = n \]
+\[ V(G) = V_1 \cup V_2 \]
+with $nn$ edges called complete bipartite graph. 
+
+\item A Graph $G$ is connected if for every pair of verticies in $V(G)$ there is
+a path that has them as endpoints. 
+
+\end{itemize}
+
+In class assignment. Create a program that checks connectivity
+
+Spectral Graph Theory uses eigenvalues and eigenvectors to analyze graphs. The
+Graph Laplacian Matrix is positive semi-definite, has real eigenvalues can be
+ordered
+\[ \lambda_1(G) \leq \lambda_2(G) \cdots \ldots \leq \lambda_n(G) \]
+Theorem, the graph $G$ is connected iff $\lambda_2(G) > 0$. 
+
+\section*{Agreement/Consesnsus (Chapter 3)}
+\[ \dot{x}(t) = \sum_{j \in N(i)} \left( x_j(t) - x_i(t) \right),
+i=1,2,3\ldots,n \]
+Where $N(i)$ are the neighbors of $i$. Another representation of this is thus
+\[ \dot{x}(t) = -L(G)x(t) \]
+for graphs with 5 nodes.
+We can now answer these problems from the homework. Compare the rate of
+convergence as the number of edges increases. Does this always improve when more
+edges are added. Why, or why not? Try to find the settling time for every graph
+we generate within some tolerance such as 2\%. Also, the rate of convergence
+stems from the eigenvalues. 
+
+also consider the \texttt{expm} function and note that the ODE
+\[ \dot{x} = a x \]
+has the solution
+\[ x(t) = x(0) e^{at} \]
+and so we can also find this mathematically. Also, look at blackboard. And ask
+questions and the professor will add papers for projects.
+
+\end{document}
