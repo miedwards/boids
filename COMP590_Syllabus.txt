@@ -1,0 +1,75 @@
+
+
+COMP 590: Advanced Topics
+
+Location: Sierra Hall 1242
+Lecture Instructor:  Jason Isaacs
+Email:  jason.isaacs@csuci.edu
+Phone: (805) 437-8991
+Office: BTW 2285
+Office Hours: Tuesday and Thursday 1:00 PM to 2:00 PM 
+
+Course Description:
+Introduction to the concepts of cooperative control and motion coordination of mobile robots. The course introduces the distributed algorithms used to coordinate robotic networks.
+Student Learning Outcomes
+By the successful completion of this course, you will be able to:
+Use concepts from graph theory to analyze coordination behaviors from biology.
+Analyze, design, implement, and test distributed algorithms used for robot coordination.
+Use geometric models and optimization to analyze distributed algorithms for mobile robots.
+Perform a literature review of relevant work related to robot coordination.
+Give an oral presentation describing existing research in the field of robot coordination.
+Learning Environment:
+Each class session will be a blend of lecture and lab.  Since the class is three hours long, we will try to break it up in to section including, lecture to cover new material and laboratory programming assignments designed to exercise the material covered in lecture.
+Grading:
+The course grade will be determined by a weighted average of homeworks, exam, and project.
+
+Homeworks – 50%
+There will be approximately 5 homework assignments during the course of the semester.  Questions will be drawn from reading assignments and material discussed in the lecture.
+
+
+Exams – 20%
+Midterm - Date: March 14, 2106
+
+Final Project – 30%
+The culminating assignment for the class will be a project.  In this project you will have the choice of proposing your own research project related to this course or you may choose from a selection of relevant research papers to review.  You will prepare a short write-up of the project (4-6 pages) along with a short presentation (around 20 minutes).  More details to come….
+
+Letter Grade Determination
+97 -100 – A +
+94 – 96.99 – A
+90 – 93.99 – A-
+87 – 89.99 – B+
+84 – 86.99 – B
+80 – 83.99 – B-
+77 – 79.99 – C+
+74 – 76.99 – C
+70 – 73.99 – C-
+67 – 69.99 – D+
+64 – 66.99 – D
+60 – 63.99 – D-
+0    – 60 – F
+Instructor Communication Policy:
+I will make every effort to respond to your email questions within 24 hours Monday through Friday.  If for some reason you have not received a reply after 24 hours, please feel free to email me again or call my office.
+Required Materials:
+
+Textbook Reccomended
+Title: Distributed Control of Robotic Networks
+Authors: Francesco Bullo, Jorge Cortés, and Sonia Martínez
+Publisher: Princeton University Press
+ISBN-13: 978-0-691-14195-4
+
+Title: Graph Theoretic Methods in Multiagent Networks
+Authors: Mehran Mesbahi and Magnus Egerstedt
+Publisher: Princeton University Press
+ISBN-13: 9781400835355
+
+
+Software Recommended
+Julia 
+installed in Sierra Hall computer labs
+MATLAB 
+installed in Sierra Hall computer labs
+Course Policies:
+Cheating and Plagiarism
+This course will adhere to CSUCI’s academic dishonesty policy.
+Accommodations for Students with Disabilities
+Cal State Channel Islands is committed to equal educational opportunities for qualified students with disabilities in compliance with Section 504 of the Federal Rehabilitation Act of 1973 and the Americans with Disabilities Act (ADA) of 1990. The purpose of Disability Resource Program is to assist students with disabilities to realize their academic and personal potential. Students with disabilities needing accommodation are required to contact the Disability Program office at (805) 437-3331. All requests for accommodations need appropriate advance notice by the student to avoid a delay in services. Please discuss approved accommodations with faculty.
