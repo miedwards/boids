@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\usepackage{subcaption}
+\usepackage{tikz}
+
+\title{Notes for Autonomous Robotic Networks}
+\author{Professor Jason Isaacs}
+\date{2/10/16}
+
+\begin{document}
+\maketitle
+\section{Distribuited Architecture}
+A Synchronous network $S$ is a digraph $S=(I,E_{con})$, $I = \{1,2,\ldots,n\}$
+\[ (i,j)\in E_{con} \rightarrow i \text{ can send messages to } j \]
+
+A distruibted algorithm $DA$ for network $S$ has an alphabet $\mathbb{A}$,
+processor state $W^{[i]}, i \in I$, and allowable state states. See section 1.5
+of BulloCortesMartinez. Read this, instead of notes. 
+
+\section{Network Evolution}
+Given an intial state, 
+\[  w_0^{[i]} \in W_0^{[i]}, i \in I \]
+\[ q^{[i]}(l) = \text{stf}^{[i]}(w^{[i]}(l), y^{[i]}(l)) \]
+Where $l$ is time and 
+\[ y^{[i]}(l)  = \left\{ \begin{array} \text{msg}^{[j]}(w^{[j]}(l-1),i), &(j,i)
+\in E_{con} \\
+null, &else \end{array} \right. \]
+
+\end{document}

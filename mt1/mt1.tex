@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Math 582}
+\chead{Mark I. Edwards}
+\rhead{Midterm 1}
+
+\title{COMP590: Midterm 1}
+\author{Professor Jason Isaacs}
+\date{March 31, 2016}
+
+\begin{document}
+\maketitle
+\section*{Problem 1}
+I first state the agreement protocol for this digraph:
+\[ \dot{x} = - L(\mathcal{D}) x \]
+If I suppose that $x(t) \neq 0$, then compare against the symmetric algorithm
+\[ L(\mathcal{D}) = {L(\mathcal{D})}^T \]
+Now,
+\[ L(\mathcal{D}) = \Delta(\mathcal{D}) - A(\mathcal{D}) \text{ and }
+\Delta(\mathcal{D}) = {\Delta(\mathcal{D})}^T \]
+And for any two matricies of the same dimensions
+\[ {(A + B)}^T = A^T + B^T \]
+So
+\[ A = A^T \]
+Which is to say, when this digraph is bidirectional it is identical to our
+traditional convergence algorithm. However, we can take this reasoning one step
+farther. If $\mathcal{D}$ is balanced (has the same in-degree as out-degree) and
+weakly connected, 
+\[ L(\mathcal{D}) + L(\mathcal{D})^T \]
+will correspond to a graph laplacian, and so the algorithm will converge in the
+agreement subspace. 
+
+
+\section*{Problem 2}
+I first note that for any matrix $M$ with eigenvalue $\lambda$ and eigenvector
+$\vec{v}$, and all $\alpha, \beta \in \mathbb{R}$, we see that
+\[ \alpha M + \beta I \]
+has eigenvector
+\[ \alpha \lambda + \beta \]
+since 
+\[ (\alpha M + \beta I)\vec{v} = (\alpha \lambda + \beta)\vec{v} \]
+This implies that if
+\[ \dot{x}(t) = (-\alpha L+ I\beta)x(t) \]
+the new eigenvalues are now $\alpha\lambda_i+\beta$ where $\lambda_i$ is the
+eigenvalue of $L$. From this, I propose the following
+\[ \dot{x}(t) = (-\alpha L + \text{diag}(d))L \]
+and the following matlab code.
+\begin{verbatim}
+function [ s, x ] = p2agreement( N, initial_x, alpha, d )
+%UNTITLED4 Summary of this function goes here
+%   Detailed explanation goes here
+L = diag(sum(N)) - N;
+x = initial_x;
+TOLORANCE = 1e-3;
+s = 0;
+plot(ones(size(x))*s, x, '*')
+hold on
+while norm(x - (alpha*ones(size(x))+d)) > TOLORANCE && s < 2e2 %norm(x-mean(x)) > TOLORANCE && s < 2e3 % - (alpha*ones(size(x))+d)) > TOLORANCE
+    %x = -L*x*1e-3 + x;
+    x = (-alpha.*L)*x+d.*x;
+    s = s+1;
+    plot(ones(size(x))*s, x, '*')
+    hold on
+end
+hold off
+\end{verbatim}
+
+\section*{Problem 3}
+\[ u_{i}(t) \]
+We want
+\[ p_i + (v_i+u_i(t)) dt = \frac{\sum_{j = 1, i \neq j }^{n}p_i(t) + v_i(t)dt}{n} \]
+\[ u_i(t) = \frac{\frac{\sum_{j = 1, i \neq j }^{n}p_i(t) + v_i(t)dt}{n} -
+p_i}{dt} - v_i \]
+
+
+
+\section*{Problem 4}
+
+
+\end{document}

@@ -1,0 +1,298 @@
+
+
+
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dash User Guide - Kapeli</title>
+    <script>if((window.devicePixelRatio===undefined?1:window.devicePixelRatio)>1) { document.cookie='HTTP_IS_RETINA=true;path=/;domain=kapeli.com'; } else { document.cookie='HTTP_IS_RETINA=false;path=/;domain=kapeli.com'; }</script>
+    <meta name="description" content="Welcome to Dash's User Guide. The sections below will help you get the most out of Dash.">
+    <link href="/scss/build/screen.css" rel="stylesheet" type="text/css">
+    <script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-40472361-1']);
+      _gaq.push(['_setDomainName', 'kapeli.com']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+  <body class="regular">
+    <div id="container">
+      <div class="contain-to-grid top-bar-area kapeli-topbar-bg">
+        <nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="/">Kapeli</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="left">
+      <li class="notactive"><a href="/dash">Dash for OS X</a></li>
+      <li class="notactive"><a href="/dash_ios">Dash for iOS</a></li>
+    </ul>
+    <ul class="right">
+      <li class="notactive"><a href="//blog.kapeli.com">Blog</a></li>
+      <li><a target="_blank" href="https://twitter.com/kapeli">Twitter</a></li>
+      <li class="notactive"><a href="/contact">Contact</a></li>
+    </ul>
+  </section>
+</nav>
+      </div>
+
+<div class="contain-to-grid row body-section-guide">
+    <h1>Dash User Guide</h1>
+    <hr>
+    <p class="lead">Welcome to Dash's User Guide. The sections below will help you get the most out of Dash. As always, feel free to <a href="/contact">contact me</a> about anything if you need further help.</p>
+    <ul class="no-margin-left">
+        <li><a href="#docsets">1. Documentation Sets</a></li>
+        <ul class="no-margin-bottom">
+            <li><a href="#downloadingDocsets">1.1. Downloading Docsets</a></li>
+            <ul class="no-margin-bottom">
+                <li><a href="#downloadingDashDocsets">1.1.1. Downloading Dash Docsets</a></li>
+                <li><a href="#downloadingXcodeDocsets">1.1.2. Downloading Xcode Docsets</a></li>
+            </ul>
+            <li><a href="#generatingDocsets">1.2. Generating Docsets</a></li>
+            <li><a href="#managingDocsets">1.3. Managing and Searching Docsets</a></li>
+            <ul class="no-margin-bottom">
+                <li><a href="#searchProfiles">1.3.1. Search Profiles</a></li>
+                <li><a href="#docsetKeywords">1.3.2. Docset Keywords</a></li>
+            </ul>
+            <li><a href="#tableOfContents">1.4. Current Page's Table of Contents</a></li>
+        </ul>
+        <li><a href="#integration">2. Integration with Other Apps</a></li>
+        <ul class="no-margin-bottom">
+            <li><a href="#integrationPlugins">2.1. Integration Plugins</a></li>
+            <li><a href="#globalSearchShortcut">2.2. Global Search Shortcut</a></li>
+            <li><a href="#lookUpInDashSystemService">2.3. The "Look Up in Dash" System Service (uses selected text)</a></li>
+            <li><a href="#dashURLScheme">2.4. The "dash://" Custom URL Scheme</a></li>
+        </ul>
+        <li><a href="#inPageSearch">3. In-Page Search</a></li>
+        <li><a href="#snippets">4. Snippets</a></li>
+        <ul class="no-margin-bottom">
+            <li><a href="#snippetTips">4.1. Tips and Best Practices</a></li>
+            <li><a href="#creatingEditingSnippets">4.2. Creating and Editing Snippets</a></li>
+            <li><a href="#managingSnippets">4.3. Searching Snippets</a></li>
+            <li><a href="#syncingSnippets">4.4. Syncing Snippets</a></li>
+            <li><a href="#disablingSnippets">4.5. Disabling Snippet Expansion</a></li>
+        </ul>
+        <li><a href="#troubleshooting">5. Troubleshooting</a></li>
+        <ul>
+            <li><a href="#alreadyPurchased">5.1. "Dash complains that I haven't purchased it, but I did"</a></li>
+            <li><a href="#cantPurchase">5.2. "Can't purchase or can't restore purchases"</a></li>
+            <li><a href="#duplicateDocsets">5.3. "Duplicate docsets are shown in Dash's Preferences"</a></li>
+            <li><a href="#expansionStoppedWorking">5.4. "Snippet expansion is not working"</a></li>
+        </ul>
+    </ul>
+    <div class="guide-section">
+        <h2 id="docsets">1. Documentation Sets<span class="permalink"><a href="#docsets">#</a></span></h2><hr>
+        <p>Documentation sets, or docsets, consist of collections of HTML files. Dash uses these docsets to store the docs you need. This section describes the various features Dash has to help you acquire and manange docsets.</p>
+        <div class="guide-section">
+            <h3 id="downloadingDocsets">1.1. Downloading Docsets<span class="permalink"><a href="#downloadingDocsets">#</a></span></h3><hr>
+            <p>Docsets can be downloaded from a lot of places, the most popular being Dash itself and Xcode. Regardless of where you get a docset, you can double click it in Finder to let Dash know about it.
+            <div class="guide-section">
+                <h4 id="downloadingDashDocsets">1.1.1. Downloading Dash Docsets<span class="permalink"><a href="#downloadingDashDocsets">#</a></span></h4><hr>
+                <p>Downloading Dash docsets is easy, just open <strong>Preferences > Downloads</strong>.</p>
+            </div>
+            <div class="guide-section">
+                <h4 id="downloadingXcodeDocsets">1.1.2. Downloading Xcode Docsets<span class="permalink"><a href="#downloadingXcodeDocsets">#</a></span></h4><hr>
+                <p>Xcode docsets can be downloaded from <strong>Xcode's Preferences</strong> > Downloads > Documentation. After the download finishes, open <strong>Dash's Preferences</strong> > Docsets and click the Rescan button at the bottom right. Dash will then find the new docsets that Xcode installed.</p>
+
+                <p>Please note that Xcode leaves around a lot of <strong>empty/corrupt docsets</strong>. If Dash shows duplicate docsets in <strong>Preferences > Docsets</strong>, you should right click each of them, choose "Show in Finder" and then manually delete them all. Afterwards, redownload the docsets using Xcode. This will ensure that you'll get rid of all the docsets left around by previous versions of Xcode and save some disk space.</p>
+            </div>
+        </div>
+        <div class="guide-section">
+            <h2 id="generatingDocsets">1.2. Generating Docsets<span class="permalink"><a href="#generatingDocsets">#</a></span></h2><hr>
+            <p>Instructions on generating docsets can be found in the <a href="/docsets">Docset Generation Guide</a>.</p>
+        </div>
+        <div class="guide-section">
+            <h2 id="managingDocsets">1.3. Managing and Searching Docsets<span class="permalink"><a href="#managingDocsets">#</a></span></h2><hr>
+            <p>You can manage the docsets you have installed from within <strong>Preferences > Docsets</strong>. You can drag and drop docsets to change the order in which results appear. If you're looking for more advanced ways of managing docsets and easier switching between them, see the sections below about Search Profiles and Docset Keywords.</p>
+            <p>If you're looking for a way to download/install docsets, see the <a href="#downloadingDocsets">Downloading Docsets</a> section.</p>
+            <div class="guide-section">
+                <h4 id="searchProfiles">1.3.2. Search Profiles<span class="permalink"><a href="#searchProfiles">#</a></span></h4><hr>
+                <p>You can set up collections of docsets and easily switch between them using search profiles. For example, let's say you do both OS X and Web development, you could set up a "OS X" search profile which automatically gets activated when Xcode launches and a "Web" search profile which automatically gets activated when Coda launches.</p>
+                <p>Search profiles persist between Dash launches and searches. If you explicitly do not need persistence, use <a href="#docsetKeywords">Docset Keywords</a>.</p>
+                <p>You can find the search profile settings by clicking on the <strong>loupe icon of the main search field</strong>:</p>
+                <p><img src="/img/searchProfilesAnnotated.png" style='width:700px; height:auto; display:block; margin:0 auto;'></p>
+                <p><h4>Trigger Types:</h4></p>
+                <dl>
+                    <dt>Search Keywords</dt>
+                    <dd>Search keywords are typed inside of Dash's main search field and activate a profile. In the screenshot above, whenever the user types "web:" in the search field, the Web search profile is activated. Search keywords can also be used with the dash:// URL scheme, which makes it very easy to integrate them into plugins and extensions. For more details, see the <a href="#dashURLScheme">dash:// custom URL scheme</a> section.</dd>
+                    <dt>App Activation</dt>
+                    <dd>App Activation triggers activate a search profile whenever a given app becomes active. In the example in the screenshot above, whenever Coda becomes active, it also activates the "Web" search profile.</dd>
+                    <dt>Global Keyboard Shortcut</dt>
+                    <dd>Whenever you press a combination of keys in any app, the profile gets activated and Dash is shown.</dd>
+                </dl>
+            </div>
+            <div class="guide-section">
+                <h4 id="docsetKeywords">1.3.3. Docset Keywords<span class="permalink"><a href="#docsetKeywords">#</a></span></h4><hr>
+                <p>Docset keywords are a very easy way to search a specific docset, regardless if it's enabled or not. Each docset has a default keyword which can be edited in <strong>Preferences > Docsets</strong>. Keywords are typed inside of the main search field.</p>
+                <p>For example, PHP's default keyword is "php:". Typing "php:printf" would search the PHP docset for "printf". Note: this assumes you have the PHP docset installed.</p>
+                <p>Docset keywords can also be used with the dash:// URL scheme, which makes it very easy to integrate them into plugins and extensions. For more details, see the <a href="#dashURLScheme">dash:// custom URL scheme</a> section.</p>
+                <p>You can assign the same keyword to more than one docset, and Dash will search them all. However, you might want to consider using <a href="#searchProfiles">Search Profiles</a> instead which provide more flexibility for activating collections of docsets.</p>
+            </div>
+        </div>
+        <div class="guide-section">
+            <h3 id="tableOfContents">1.4. Current Page's Table of Contents<span class="permalink"><a href="#tableOfContents">#</a></span></h3><hr>
+            <p>Docsets which support the "Table of Contents" feature show a filterable list of entries inside Dash's table of contents which is located at the bottom left of the Dash window (when shown). You can easily navigate this table using ALT+Down/Up Arrow.</p>
+            <p>The screenshot below shows the table of contents in action:</p>
+            <img src="/img/tableOfContents.png" style='width:700px; height:auto; display:block; margin:0 auto;'>
+        </div>
+    </div>
+    
+    <div class="guide-section">
+        <h2 id="integration">2. Integration with Other Apps<span class="permalink"><a href="#integration">#</a></span></h2><hr>
+        <p>Dash can integrate with almost any app you use. Once Dash becomes a part of your workflow, it will always be one key press away.</p>
+        <div class="guide-section">
+            <h3 id="integrationPlugins">2.1. Integration Plugins<span class="permalink"><a href="#integrationPlugins">#</a></span></h3><hr>
+            <p>Integration plugins for various 3rd party apps, as well as generic integration methods (e.g. AppleScript or Shell/Terminal scripts) can be found in <strong>Preferences > Integration</strong>.</p> 
+            <p>All the integration plugins use the <code>dash://</code> URL scheme behind the scenes, so it might be worth reading the help section for the <a href="#dashURLScheme">dash:// custom URL scheme</a> to gain understanding of search keywords and how to limit a plugin to search only a specific docset.</p>
+        </div>
+        <div class="guide-section">
+            <h3 id="globalSearchShortcut">2.2. Global Search Shortcut<span class="permalink"><a href="#globalSearchShortcut">#</a></span></h3><hr>
+            <p>The global search shortcut is an easy way to activate Dash in a similar style as the Spotlight shortcut. You can assign a search shortcut in <strong>Preferences > General</strong> and then use that hotkey in any app when you want to bring up Dash.</p>
+            <p>You can assign more global search shortcuts using <a href="#searchProfiles">Search Profile</a> activation triggers. <a href="#searchProfiles">Search Profiles</a> can also automatically switch and enable different collections of docsets.</p>
+        </div>
+        <div class="guide-section">
+            <h3 id="lookUpInDashSystemService">2.3. The "Look Up in Dash" System Service (uses selected text)<span class="permalink"><a href="#lookUpInDashSystemService">#</a></span></h3><hr>
+            <p>The "Look Up in Dash" system service can be used to initiate a Dash search using the currently selected text of any app.</p>
+            <dl>
+                <dt>Using the service from the contextual menu</dt>
+                <dd>Right click on some text in any app and choose Services > Look Up in Dash from the contextual menu.</dd>
+                <dt>Using the service with a global keyboard shortcut</dt>
+                <dd>You can assign a keyboard shortcut for this service in Preferences > General.</dd>
+            </dl>
+            <p><span class="label label-warning">Warning! Some apps do not support OS X system services. Most notably, Java-based apps.</span></p>
+        </div>
+        <div class="guide-section">
+            <h3 id="dashURLScheme">2.4. The "dash://" Custom URL Scheme<span class="permalink"><a href="#dashURLScheme">#</a></span></h3><hr>
+            <p>The <code>dash://</code> custom URL scheme can be used to initiate a Dash search from any app that supports opening a custom URL.</p>
+            <ul class="disc">
+                <li>The format is: <code>dash://{query}</code>. Example: <a href="dash://string">dash://string</a>.</li>
+                <li>You can also include an optional keyword: <code>dash://{keyword}:{query}</code>. Example: <a href="dash://php:printf">dash://php:printf</a> (note: PHP docset must be installed).</li>
+                <ul class="disc">
+                    <li>Keywords can be used to specify which docsets exactly you wish to search. Keywords can be either <a href="#docsetKeywords">Docset Keywords</a> or <a href="#searchProfiles">Search Profile</a> keyword triggers.</li>
+                </ul>
+            </ul>
+            <p>A more advanced <code><a href="/dash_plugins">dash-plugin://</a></code> custom URL scheme is available for plugin developers.</p>
+        </div>
+    </div>
+    
+    <div class="guide-section">
+        <h2 id="inPageSearch">3. In-Page Search<span class="permalink"><a href="#inPageSearch">#</a></span></h2><hr>
+        <p>While viewing a documentation page or snippet, you can press <code>CMD+F</code> to initiate an in-page search.</p>
+        <p>However, please note that in-page search occurs in the same search field as the regular search. In a nutshell, anything that comes after a whitespace is searched in-page.</p>
+        <p>This is what the main search field looks like while searching for <code>stringWithFormat</code> <stong>inside</stong> the <code>NSString</code> documentation page:</p>
+        <p><img src="/img/inPageSearch.png" style='display:block; margin:0 auto;'></p>
+        <p>Due to the "anything that comes after a whitespace is searched in-page" functionality, you might run into problems while trying to search for something that actually contains a whitespace (e.g. a Guide). To search entries that contain whitespaces, omit the whitespace. For example, if you'd like to find the <code>String Programming Guide</code>, you can search for <code>stringprogramming</code> or <code>stringguide</code> or anything like that as long as you omit the whitespace.</p>
+    </div>
+
+    <div class="guide-section">
+        <a name="introductionToSnippets"></a>
+        <h2 id="snippets">4. Snippets<span class="permalink"><a href="#snippets">#</a></span></h2><hr>
+        <p>Snippets are really simple pieces of text which you reuse often. The idea is to save a text/code snippet for later and expand it whenever you need to.</p>
+
+        <p>A snippet consists of:</p>
+        <dl>
+            <dt>Abbreviation</dt>
+            <dd><ul class="disc">
+                <li>This is what you type in any app to expand snippets. The abbreviation gets replaced by the snippet body wherever you type it. </li><li>It is highly recommended that your snippet's abbreviation should contain a symbol, in order to avoid expansions by mistake. I personally use a backtick (<code>`</code>).</li>
+            </ul></dd>
+            <dt>Body</dt>
+            <dd><ul class="disc">
+                <li>This is the piece of text/code you'd like to save and reuse.</li>
+            </ul></dd>
+            <dt>Variable Placeholders</dt>
+            <dd><ul class="disc">
+                <li>Placeholders are the parts of the snippet that change on each expansion. For example, variable names could be placeholders. </li><li>Placeholders are defined by wrapping them in <code>__</code> (double underscores). For example, <code>__var__</code> is a placeholder.</li>
+                <li>Each time you expand a snippet, you are asked to fill in placeholders (if any).</li>
+                <li>Placeholders can have default values. Just name your placeholder using the default value you want and when you press Enter while expanding, the default value is used.</li>
+                <li>Placeholders can change the case of the first letter (e.g. lowercase to uppercase). For example, <code>__name__</code> and <code>__Name__</code>.</li><li>If <code>__</code> does not suit your needs, you can define your own placeholder delimiter in Preferences > Snippets.</li>
+            </ul></dd>
+            <dt>Special Placeholders</dt>
+            <dd><ul class="disc">
+                <li><code>@clipboard</code> - expands into the contents of the clipboard.</li>
+                <li><code>@cursor</code> - repositions the cursor after expansion. Warning: this feature does not work very well with non-accessible apps.</li>
+                <li><code>@date</code> - expands into the current date. You can modify the format in Preferences > Snippets.</li>
+                <li><code>@time</code> - expands into the current time. You can modify the format in Preferences > Snippets.</li>
+                <li>You can escape (disable) these special placeholders by typing a <code>\</code> before them.</li>
+            </ul></dd>
+        </dl>
+        <p>The following screenshots show a snippet as defined in Dash and the same snippet while being expanded:</p>
+        <p><img src="/img/snippetInDash.png" style='width:700px; height:auto; display:block; margin:0 auto;'></p>
+        <p><img src="/img/snippetInUse.png" style='width:500px; height:auto; display:block; margin:0 auto;'></p>                                 
+        <div class="guide-section">
+            <h3 id="snippetTips">4.1. Tips and Best Practices<span class="permalink"><a href="#snippetTips">#</a></span></h3><hr>
+            It is highly recommended that your snippet's abbreviation should contain a symbol, in order to avoid expansions by mistake. I personally use a backtick (<code>`</code>). 
+        </div>
+        <div class="guide-section">
+            <h3 id="creatingEditingSnippets">4.2. Creating and Editing Snippets<span class="permalink"><a href="#creatingEditingSnippets">#</a></span></h3><hr>
+            <p>To create or edit a snippet start typing into the snippet editor. Snippets are automatically saved.</p>
+            <p>To manage snippets and show the snippet editor, click one of the highlighted buttons from the screenshot below:</p>
+            <p><img src="/img/snippetButtons.png" style='display:block; margin:0 auto;'></p>
+        </div>
+        <div class="guide-section">
+            <h3 id="managingSnippets">4.3. Searching Snippets<span class="permalink"><a href="#managingSnippets">#</a></span></h3><hr>
+            <p>You can search snippets by typing in the main search field. However, it might be hard to find the snippet you want if you have a lot of docsets enabled. To avoid this, you can create a <strong>snippets only</strong> Search Profile. For more information about search profiles, see the <a href="#searchProfiles">Search Profiles</a> help section.</p>
+        </div>
+        <div class="guide-section">
+            <h3 id="syncingSnippets">4.4. Syncing Snippets<span class="permalink"><a href="#syncingSnippets">#</a></span></h3><hr>
+            <p>Dash can sync snippets between Macs if you save your snippet library into your Dropbox folder. You can change your snippets library location in <strong>Preferences > Snippets</strong>.</p>
+        </div>
+        <div class="guide-section">
+            <h3 id="disablingSnippets">4.5. Disabling Snippet Expansion<span class="permalink"><a href="#disablingSnippets">#</a></span></h3><hr>
+            <p>To disable snippet expansion, either delete the snippet or add a few symbols (e.g. whitespaces) at the end of the snippet's abbreviation.</p>
+            <p>You can also completely disable snippet expansion by disabling Dash's accessibility support. You can do this in System Preferences > Security & Privacy > Privacy > Accessibility > Disable Dash.</p>
+        </div>
+    </div>
+    
+    <div class="guide-section">
+        <h2 id="troubleshooting">5. Troubleshooting<span class="permalink"><a href="#troubleshooting">#</a></span></h2><hr>
+        <p>Common issues are listed below. If you notice a bug or have any feedback, please <a href="/contact">contact me</a>.</p>
+        <div class="guide-section">
+            <h3 id="alreadyPurchased">5.1. "Dash complains that I haven't purchased it, but I did"<span class="permalink"><a href="#alreadyPurchased">#</a></span></h3><hr>
+            <p>Dash is free on the Mac App Store - you purchase Dash using an In-App Purchase located in Preferences > Purchase. This is so that you can test Dash out before purchasing.</p>
+            <p>If you are sure you have previously purchased Dash using the In-App Purchase located in Preferences > Purchase, check out the <a href="#cantPurchase">can't purchase or can't restore purchases</a> help section.</p>
+        </div>
+        <div class="guide-section">
+            <h3 id="cantPurchase">5.2. "Can't purchase or can't restore purchases"<span class="permalink"><a href="#cantPurchase">#</a></span></h3><hr>
+            <p>Unfortunately, the App Store can act funny sometimes and get confused by its own caches. I have contacted Apple about it and they seem to have no interest in fixing this bug.</p>
+            <p>Check out the <a href="/inappfailed">In-App Store Troubleshooting</a> page for step-by-step instructions on how to attempt to fix this issue. </p>
+        </div>
+        <div class="guide-section">
+            <h3 id="duplicateDocsets">5.3. "Duplicate docsets are shown in Dash's Preferences"<span class="permalink"><a href="#duplicateDocsets">#</a></span></h3><hr>
+            <p>Xcode leaves around a lot of empty/corrupt docsets. If Dash shows duplicate docsets in <strong>Preferences > Docsets</strong>, you should right click each of them, choose "Show in Finder" and then manually delete them all. Afterwards, redownload the docsets using Xcode. This will ensure that you'll get rid of all the docsets left around by previous versions of Xcode and save some disk space.</p>
+        </div>
+
+        <div class="guide-section">
+            <h3 id="expansionStoppedWorking">5.4. "Snippet expansion is not working"<span class="permalink"><a href="#expansionStoppedWorking">#</a></span></h3><hr>
+            <p>There are 2 things that could prevent snippet expansion from working and in both cases Dash should have warned you about it:</p>
+            <p>1. Support for assistive devices is turned off. This needs to be turned on for snippet expansion to work. You can turn this on in System Preferences > Security &amp; Privacy > Privacy > Accessibility. If it was turned off, restart Dash after turning it on.</p>
+            <p>2. You have an app running that enables Secure Input but forgets to turn it off, you need to identify which app is causing this. Usually, web browsers or an extension inside web browsers is the culprit. To find where the problem is, quit the apps you have running one by one and try expanding after each one. If expansion starts working after you quit an app, that was the app that turned on Secure Input and forgot to turn it off.</p>
+        </div>
+    </div>
+</div>
+<!-- The blog doesn't use this footer file. It uses ./.themes/kapeli/source/_includes/footer.html instead -->
+    <div id="footer-margin"></div>
+    <div id="footer-layout"></div>
+</div>
+<footer id="footer" class="text-center">
+    &copy; 2016 <a href="//kapeli.com">Kapeli</a>. Designed with <img src="//kapeli.com/img/heart.png" srcset="//kapeli.com/img/heart@2x.png 2x" width=17 height=17> at <a target="_blank" href="http://zebra-labs.com">Zebra Labs</a>.
+</footer>
+<script src="/js/app.min.js"></script>  </body>
+</html>

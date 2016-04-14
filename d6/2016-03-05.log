@@ -1,0 +1,51 @@
+EchoServer: __init__
+EchoServer: server_activate
+EchoServer: waiting for request
+client: Server on 127.0.0.1:7776
+EchoServer: Handling requests, press <Ctrl-C> to quit
+client: creating socket
+EchoServer: handle_request
+client: connecting to server
+client: sending data: "Hello, world"
+EchoServer: verify_request(<socket._socketobject object at 0x10e9d1210>, ('127.0.0.1', 57771))
+client: waiting for response
+EchoServer: process_request(<socket._socketobject object at 0x10e9d1210>, ('127.0.0.1', 57771))
+EchoServer: finish_request(<socket._socketobject object at 0x10e9d1210>, ('127.0.0.1', 57771))
+EchoRequestHandler: __init__
+EchoRequestHandler: setup
+EchoRequestHandler: handle
+EchoRequestHandler: recv()->"Hello, world"
+EchoRequestHandler: finish
+client: response from server: "Hello, world"
+EchoServer: close_request(<socket._socketobject object at 0x10e9d1210>)
+EchoServer: __init__
+EchoServer: server_activate
+EchoServer: waiting for request
+EchoServer: Handling requests, press <Ctrl-C> to quit
+EchoServer: handle_request
+EchoServer: __init__
+EchoServer: server_activate
+EchoServer: waiting for request
+EchoServer: Handling requests, press <Ctrl-C> to quit
+EchoServer: handle_request
+EchoServer: verify_request(<socket._socketobject object at 0x104e55c20>, ('127.0.0.1', 57829))
+EchoServer: process_request(<socket._socketobject object at 0x104e55c20>, ('127.0.0.1', 57829))
+EchoServer: finish_request(<socket._socketobject object at 0x104e55c20>, ('127.0.0.1', 57829))
+EchoRequestHandler: __init__
+EchoRequestHandler: setup
+EchoRequestHandler: handle
+EchoRequestHandler: recv()->"Hello World\!\n
+"
+EchoRequestHandler: finish
+EchoServer: close_request(<socket._socketobject object at 0x104e55c20>)
+EchoServer: handle_request
+EchoServer: __init__
+EchoServer: server_activate
+EchoServer: waiting for request
+EchoServer: Handling requests, press <Ctrl-C> to quit
+EchoServer: handle_request
+EchoServer: __init__
+EchoServer: server_activate
+EchoServer: waiting for request
+EchoServer: Handling requests, press <Ctrl-C> to quit
+EchoServer: handle_request

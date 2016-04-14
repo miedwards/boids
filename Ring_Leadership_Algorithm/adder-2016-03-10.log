@@ -1,0 +1,279 @@
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x10303d6e0>, ('127.0.0.1', 59072))
+LeaderServer: process_request(<socket._socketobject object at 0x10303d6e0>, ('127.0.0.1', 59072))
+LeaderServer: finish_request(<socket._socketobject object at 0x10303d6e0>, ('127.0.0.1', 59072))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"1
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x10303d6e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: __init__
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58784))
+LeaderServer: process_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58784))
+LeaderServer: finish_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58784))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"123123"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1012656e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49796))
+LeaderServer: process_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49796))
+LeaderServer: finish_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49796))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1012656e0>)
+LeaderServer: __init__
+LeaderServer: verify_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49797))
+LeaderServer: process_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49797))
+LeaderServer: finish_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49797))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1012656e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58882))
+LeaderServer: process_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58882))
+LeaderServer: finish_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58882))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"123123"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1012656e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58966))
+LeaderServer: process_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58966))
+LeaderServer: finish_request(<socket._socketobject object at 0x1012656e0>, ('10.31.132.216', 58966))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"123123"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1012656e0>)
+LeaderServer: __init__
+LeaderServer: verify_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49798))
+LeaderServer: process_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49798))
+LeaderServer: finish_request(<socket._socketobject object at 0x1012656e0>, ('10.31.112.199', 49798))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1012656e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59057))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59057))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59057))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"123123"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49799))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49799))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49799))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59165))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59165))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59165))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"123123"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49800))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49800))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49800))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59242))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59242))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.132.216', 59242))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"123123"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49801))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49801))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49801))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49802))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49802))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49802))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49805))
+LeaderServer: process_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49805))
+LeaderServer: finish_request(<socket._socketobject object at 0x1092306e0>, ('10.31.112.199', 49805))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"79
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1092306e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x102f616e0>, ('10.24.111.28', 65058))
+LeaderServer: process_request(<socket._socketobject object at 0x102f616e0>, ('10.24.111.28', 65058))
+LeaderServer: finish_request(<socket._socketobject object at 0x102f616e0>, ('10.24.111.28', 65058))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"93
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x102f616e0>)
+LeaderServer: __init__
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x100c096e0>, ('10.31.132.216', 59482))
+LeaderServer: process_request(<socket._socketobject object at 0x100c096e0>, ('10.31.132.216', 59482))
+LeaderServer: finish_request(<socket._socketobject object at 0x100c096e0>, ('10.31.132.216', 59482))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"14"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x100c096e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.31.132.216', 59575))
+LeaderServer: process_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.31.132.216', 59575))
+LeaderServer: finish_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.31.132.216', 59575))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"14"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x10ae4e6e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.24.111.28', 65070))
+LeaderServer: process_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.24.111.28', 65070))
+LeaderServer: finish_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.24.111.28', 65070))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"93
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x10ae4e6e0>)
+LeaderServer: verify_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.31.132.216', 59658))
+LeaderServer: process_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.31.132.216', 59658))
+LeaderServer: finish_request(<socket._socketobject object at 0x10ae4e6e0>, ('10.31.132.216', 59658))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"14"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x10ae4e6e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x1089046e0>, ('10.24.111.28', 65082))
+LeaderServer: process_request(<socket._socketobject object at 0x1089046e0>, ('10.24.111.28', 65082))
+LeaderServer: finish_request(<socket._socketobject object at 0x1089046e0>, ('10.24.111.28', 65082))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"93
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x1089046e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x103fc76e0>, ('10.24.111.28', 65106))
+LeaderServer: process_request(<socket._socketobject object at 0x103fc76e0>, ('10.24.111.28', 65106))
+LeaderServer: finish_request(<socket._socketobject object at 0x103fc76e0>, ('10.24.111.28', 65106))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"93
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x103fc76e0>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x10c6c6750>, ('10.24.111.28', 65133))
+LeaderServer: process_request(<socket._socketobject object at 0x10c6c6750>, ('10.24.111.28', 65133))
+LeaderServer: finish_request(<socket._socketobject object at 0x10c6c6750>, ('10.24.111.28', 65133))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"93
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x10c6c6750>)
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: verify_request(<socket._socketobject object at 0x10734a750>, ('10.24.111.28', 65171))
+LeaderServer: process_request(<socket._socketobject object at 0x10734a750>, ('10.24.111.28', 65171))
+LeaderServer: finish_request(<socket._socketobject object at 0x10734a750>, ('10.24.111.28', 65171))
+LeaderRequestHandler: __init__
+LeaderRequestHandler: setup
+LeaderRequestHandler: handle
+LeaderRequestHandler: recv()->"93
+"
+LeaderRequestHandler: finish
+LeaderServer: close_request(<socket._socketobject object at 0x10734a750>)
