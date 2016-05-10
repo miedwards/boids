@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\usepackage{subcaption}
+\usepackage{tikz}
+
+\title{Notes for Autonomous Robotic Networks}
+\author{Professor Jason Isaacs}
+\date{4/14/16}
+
+\begin{document}
+\maketitle
+\section{Centralized Algorithms}
+From 1.4.4 and 2.4.4 of Bullo. Given a digraph $G$ we say that the length of a
+directed path is the number of edges in a path. Given verticies $u$ and $v$ in
+$G$ the distance from $u$ to $v$ is the length of the shortest path between
+them. This is sometimes written as 
+\[ \text{dist}_{G}(u,v)  = \text{min}(\{\text{length}(p)|p \text{ is a directed
+path from }v\text{ to }u) \]
+Given a vertex $v$ in $G$ the radius of $v$ in $G$ is the max of all  distances
+from $v$ to all other nodes in $G$. 
+\[ \text{radius}(v,G) = \text{max}\{\text{dist}_G(v,u)|u\in V(G)\} \]
+Let $v$ be a vertex of $G$ with radius of $v$ in $G$ less than positive
+infinity. Then $G$ is connected, since there is a path between all all vertexs
+$G$. A Breadth first spanning tree (BFS) is a spanning tree made using BFS\@. 
+
+For a digragph $G$ with respect to vertex $v$, then the tree $T$ prduced by
+performing BFS starting from $v$ contains the shortest path from $v$ to all
+other reachable verteces. If $G$ contains a spanning tree rooted at $v$, then
+$T$ is also a spanning tree. 
+
+We now turn to DFS\@. DFS or Depth First Search uses a stack, rather than a
+queue. If $T$ is a from a DFS on graph $G$ starting from vertex $v$. 
+
+We now turn to Dijkstra's Algorithm. 
+
+\emph{By the end of the week (tomorrow) send in your choice of 3 papers to
+professor Isaacs.} 
+
+Now, we skip to chapter 1.5.5. The distributed versions of these algorithms. Now
+we turn to a distributed BFS algorithm, or the flooding algorithm. Let $S$ be a
+network containing a spanning tree rooted at $v$. Each child knows its parent
+and root knows it has no parent. However, each node may not know it's children. 
+Source broadcasts the token to its out-neighbors. In each communication round,
+each node determines if it heard a token from its in-neighbors. If it gets a
+token, the node stores the token in ``data'' the node stores the id of one of
+the transmitting in-neighbors as a ``parent.'' In the subsequent round, this
+node will broadcast token to out-neighbors. 
+
+Next week we will cover Distributed Bellman Ford. Also read what's in the book
+for flooding algorithms. 
+
+
+
+
+\end{document}

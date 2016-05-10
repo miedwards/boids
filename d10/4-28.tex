@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\usepackage{subcaption}
+\usepackage{tikz}
+
+\title{Notes for Autonomous Robotic Networks}
+\author{Professor Jason Isaacs}
+\date{}
+
+\begin{document}
+\maketitle
+\section{Distributed Estimation}
+See section 8.1 in multiagent networks pg 193. 
+We will talk about distributed Least Squares and Distributed Kalman Filtering. 
+Let $\theta \in \mathbb{R}^q$ be the variable we are trying to estimate, and that our measurement is
+\[ z  = H\theta + v \]
+represents our corrupted measurements. $H \in \mathbb{R}^{p \times q}$, $p > q$.
+We then define
+\[ J(\theta) = (z - H\theta)^{T} (z - H\theta) \]
+such that if $\hat{\theta}$ is the predicted measurement and $z$ is the actual
+measurement, $J(\hat{\theata})$ is minimized. From this, we can see that
+\[ \hat{\theta} = (H^TH)^{-1}H^T z \]
+Should we know the covariance matrix $\Sigma$, we may then say
+\[ J(\theta) = (z - H\theta)^{T} \Sigma^{-1} (z - H\theta) \]
+\[ \hat{\theta} = (H^T \Sigma^{-1} H)^{-1}H^T\Sigma^{-1} z \]
+Or, in the scalar case
+\[ \hat{\theta} = \frac{\sum_{i = 1}^n z_i}{n} \]
+However, we will suppose that $\Sigma = I$ in the following algorithm.
+
+
+
+
+\end{document}

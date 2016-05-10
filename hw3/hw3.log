@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.18)  21 APR 2016 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.18)  21 APR 2016 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2-10.tex
-(./2-10.tex
+**hw3.tex
+(./hw3.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
@@ -362,9 +362,6 @@ Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
 )
 File: pst-plot.tex 2014/08/23 1.70 `pst-plot' (tvz,hv)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
@@ -381,6 +378,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count135
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count136
 \c@subtable=\count137
 )
@@ -616,23 +615,33 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
-))) (./2-10.aux)
-\openout1 = `2-10.aux'.
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+) (./hw3.aux)
+\openout1 = `hw3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count155
 \scratchdimen=\dimen223
@@ -693,39 +702,21 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 19.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-
-! LaTeX Error: Illegal character in array arg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \[ y^{[i]}(l)  = \left\{ \begin{array} \text
-                                                 {msg}^{[j]}(w^{[j]}(l-1),i)...
-
-? y
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-[1
+) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -736,30 +727,157 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map}] (./2-10.aux) ) 
+map/pdftex.map}] <p2graph.png, id=18, 212.795pt x 229.85875pt>
+File: p2graph.png Graphic file (type png)
+
+<use p2graph.png>
+Package pdftex.def Info: p2graph.png used on input line 88.
+(pdftex.def)             Requested size: 103.50105pt x 111.80052pt.
+ [2 <./p2graph.png>] <p2plot.png, id=24, 562.1pt x 421.575pt>
+File: p2plot.png Graphic file (type png)
+
+<use p2plot.png>
+Package pdftex.def Info: p2plot.png used on input line 130.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+ [3 <./p2plot.png (PNG copy)>]
+<saa-error.png, id=30, 562.1pt x 421.575pt>
+File: saa-error.png Graphic file (type png)
+ <use saa-error.png>
+Package pdftex.def Info: saa-error.png used on input line 144.
+(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+
+<./p3minimally_connected.png, id=31, 562.1pt x 421.575pt>
+File: ./p3minimally_connected.png Graphic file (type png)
+
+<use ./p3minimally_connected.png>
+Package pdftex.def Info: ./p3minimally_connected.png used on input line 159.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<p3_maximally_connected.png, id=32, 562.1pt x 421.575pt>
+File: p3_maximally_connected.png Graphic file (type png)
+
+<use p3_maximally_connected.png>
+Package pdftex.def Info: p3_maximally_connected.png used on input line 164.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<p3_convergence_steps.png, id=33, 562.1pt x 421.575pt>
+File: p3_convergence_steps.png Graphic file (type png)
+
+<use p3_convergence_steps.png>
+Package pdftex.def Info: p3_convergence_steps.png used on input line 169.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ <./pi-ov2-min.png, id=34, 562.1pt x 421.575pt>
+File: ./pi-ov2-min.png Graphic file (type png)
+
+<use ./pi-ov2-min.png>
+Package pdftex.def Info: ./pi-ov2-min.png used on input line 184.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ <pi-ov2-max.png, id=35, 562.1pt x 421.575pt>
+File: pi-ov2-max.png Graphic file (type png)
+
+<use pi-ov2-max.png>
+Package pdftex.def Info: pi-ov2-max.png used on input line 189.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ <pi-ov2-conv.png, id=36, 562.1pt x 421.575pt>
+File: pi-ov2-conv.png Graphic file (type png)
+
+<use pi-ov2-conv.png>
+Package pdftex.def Info: pi-ov2-conv.png used on input line 194.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ [4 <./saa-error.png (PNG copy)> <./p3minimally_connected.png (PNG copy)> <./p3
+_maximally_connected.png (PNG copy)> <./p3_convergence_steps.png (PNG copy)>] <
+./pi-min-om0-9.png, id=41, 562.1pt x 421.575pt>
+File: ./pi-min-om0-9.png Graphic file (type png)
+
+<use ./pi-min-om0-9.png>
+Package pdftex.def Info: ./pi-min-om0-9.png used on input line 212.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ <pi-om0-9-max.png, id=42, 562.1pt x 421.575pt>
+File: pi-om0-9-max.png Graphic file (type png)
+
+<use pi-om0-9-max.png>
+Package pdftex.def Info: pi-om0-9-max.png used on input line 217.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ <pi-om0-9-conv.png, id=43, 562.1pt x 421.575pt>
+File: pi-om0-9-conv.png Graphic file (type png)
+
+<use pi-om0-9-conv.png>
+Package pdftex.def Info: pi-om0-9-conv.png used on input line 222.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+ <./pi-om0-9-min-rel.png, id=44, 562.1pt x 421.575pt>
+File: ./pi-om0-9-min-rel.png Graphic file (type png)
+
+<use ./pi-om0-9-min-rel.png>
+Package pdftex.def Info: ./pi-om0-9-min-rel.png used on input line 240.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<pi-om0-9-max-rel.png, id=45, 562.1pt x 421.575pt>
+File: pi-om0-9-max-rel.png Graphic file (type png)
+ <use pi-om0-9-max-rel.png>
+Package pdftex.def Info: pi-om0-9-max-rel.png used on input line 246.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<pi-om0-9-conv-rel.png, id=46, 562.1pt x 421.575pt>
+File: pi-om0-9-conv-rel.png Graphic file (type png)
+
+<use pi-om0-9-conv-rel.png>
+Package pdftex.def Info: pi-om0-9-conv-rel.png used on input line 251.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<./pi-ov2-min-om0-3.png, id=47, 562.1pt x 421.575pt>
+File: ./pi-ov2-min-om0-3.png Graphic file (type png)
+
+<use ./pi-ov2-min-om0-3.png>
+Package pdftex.def Info: ./pi-ov2-min-om0-3.png used on input line 270.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<pi-ov2-max-om0-3.png, id=48, 562.1pt x 421.575pt>
+File: pi-ov2-max-om0-3.png Graphic file (type png)
+ <use pi-ov2-max-om0-3.png>
+Package pdftex.def Info: pi-ov2-max-om0-3.png used on input line 275.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+<pi-ov2-om0-3-conv.png, id=49, 562.1pt x 421.575pt>
+File: pi-ov2-om0-3-conv.png Graphic file (type png)
+
+<use pi-ov2-om0-3-conv.png>
+Package pdftex.def Info: pi-ov2-om0-3-conv.png used on input line 280.
+(pdftex.def)             Requested size: 103.50105pt x 77.62347pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./pi-ov2-min.png (PNG copy)> <./pi-ov2-max.png (PNG copy)> <./pi-ov2-conv.p
+ng (PNG copy)> <./pi-min-om0-9.png (PNG copy)> <./pi-om0-9-max.png (PNG copy)> 
+<./pi-om0-9-conv.png (PNG copy)>] [6 <./pi-om0-9-min-rel.png (PNG copy)> <./pi-
+om0-9-max-rel.png (PNG copy)> <./pi-om0-9-conv-rel.png (PNG copy)> <./pi-ov2-mi
+n-om0-3.png (PNG copy)> <./pi-ov2-max-om0-3.png (PNG copy)> <./pi-ov2-om0-3-con
+v.png (PNG copy)>] (./hw3.aux) ) 
 Here is how much of TeX's memory you used:
- 15796 strings out of 493109
- 301517 string characters out of 6135003
- 374514 words of memory out of 5000000
- 18935 multiletter control sequences out of 15000+600000
- 11877 words of font info for 49 fonts, out of 8000000 for 9000
+ 16027 strings out of 493109
+ 305096 string characters out of 6135003
+ 383498 words of memory out of 5000000
+ 19142 multiletter control sequences out of 15000+600000
+ 12344 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,7n,94p,403b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msbm10.pfb>
-Output written on 2-10.pdf (1 page, 94951 bytes).
+ 54i,12n,92p,405b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtt10.pfb>
+Output written on hw3.pdf (6 pages, 299578 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

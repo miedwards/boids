@@ -6,66 +6,126 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B3602F441CE19D0F0012EEA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3602F431CE19D0F0012EEA9 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3602F3E1CE19D0F0012EEA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B3933B311CC031AC00A1B7C9 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		B3602F401CE19D0F0012EEA9 /* tutorial16 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tutorial16; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3602F431CE19D0F0012EEA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		B3602F3D1CE19D0F0012EEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		B3933B261CC0314600A1B7C9 = {
+		B3602F371CE19D0F0012EEA9 = {
 			isa = PBXGroup;
 			children = (
-				B3933B311CC031AC00A1B7C9 /* main.py */,
+				B3602F421CE19D0F0012EEA9 /* tutorial16 */,
+				B3602F411CE19D0F0012EEA9 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		B3602F411CE19D0F0012EEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3602F401CE19D0F0012EEA9 /* tutorial16 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3602F421CE19D0F0012EEA9 /* tutorial16 */ = {
+			isa = PBXGroup;
+			children = (
+				B3602F431CE19D0F0012EEA9 /* main.cpp */,
+			);
+			path = tutorial16;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-		B3933B2B1CC0314600A1B7C9 /* firstPythonXCodeProject */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = B3933B2E1CC0314700A1B7C9 /* Build configuration list for PBXLegacyTarget "firstPythonXCodeProject" */;
+/* Begin PBXNativeTarget section */
+		B3602F3F1CE19D0F0012EEA9 /* tutorial16 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3602F471CE19D0F0012EEA9 /* Build configuration list for PBXNativeTarget "tutorial16" */;
 			buildPhases = (
+				B3602F3C1CE19D0F0012EEA9 /* Sources */,
+				B3602F3D1CE19D0F0012EEA9 /* Frameworks */,
+				B3602F3E1CE19D0F0012EEA9 /* CopyFiles */,
 			);
-			buildToolPath = /usr/bin/python;
+			buildRules = (
+			);
 			dependencies = (
 			);
-			name = firstPythonXCodeProject;
-			passBuildSettingsInEnvironment = 1;
-			productName = firstPythonXCodeProject;
+			name = tutorial16;
+			productName = tutorial16;
+			productReference = B3602F401CE19D0F0012EEA9 /* tutorial16 */;
+			productType = "com.apple.product-type.tool";
 		};
-/* End PBXLegacyTarget section */
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B3933B271CC0314600A1B7C9 /* Project object */ = {
+		B3602F381CE19D0F0012EEA9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Mark Edwards";
 				TargetAttributes = {
-					B3933B2B1CC0314600A1B7C9 = {
+					B3602F3F1CE19D0F0012EEA9 = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
-			buildConfigurationList = B3933B2A1CC0314600A1B7C9 /* Build configuration list for PBXProject "firstPythonXCodeProject" */;
+			buildConfigurationList = B3602F3B1CE19D0F0012EEA9 /* Build configuration list for PBXProject "tutorial16" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B3933B261CC0314600A1B7C9;
+			mainGroup = B3602F371CE19D0F0012EEA9;
+			productRefGroup = B3602F411CE19D0F0012EEA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3933B2B1CC0314600A1B7C9 /* firstPythonXCodeProject */,
+				B3602F3F1CE19D0F0012EEA9 /* tutorial16 */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		B3602F3C1CE19D0F0012EEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3602F441CE19D0F0012EEA9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
-		B3933B2C1CC0314600A1B7C9 /* Debug */ = {
+		B3602F451CE19D0F0012EEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -105,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		B3933B2D1CC0314600A1B7C9 /* Release */ = {
+		B3602F461CE19D0F0012EEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -139,23 +199,16 @@
 			};
 			name = Release;
 		};
-		B3933B2F1CC0314700A1B7C9 /* Debug */ = {
+		B3602F481CE19D0F0012EEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEBUGGING_SYMBOLS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B3933B301CC0314700A1B7C9 /* Release */ = {
+		B3602F491CE19D0F0012EEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -163,24 +216,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3933B2A1CC0314600A1B7C9 /* Build configuration list for PBXProject "firstPythonXCodeProject" */ = {
+		B3602F3B1CE19D0F0012EEA9 /* Build configuration list for PBXProject "tutorial16" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3933B2C1CC0314600A1B7C9 /* Debug */,
-				B3933B2D1CC0314600A1B7C9 /* Release */,
+				B3602F451CE19D0F0012EEA9 /* Debug */,
+				B3602F461CE19D0F0012EEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3933B2E1CC0314700A1B7C9 /* Build configuration list for PBXLegacyTarget "firstPythonXCodeProject" */ = {
+		B3602F471CE19D0F0012EEA9 /* Build configuration list for PBXNativeTarget "tutorial16" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3933B2F1CC0314700A1B7C9 /* Debug */,
-				B3933B301CC0314700A1B7C9 /* Release */,
+				B3602F481CE19D0F0012EEA9 /* Debug */,
+				B3602F491CE19D0F0012EEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B3933B271CC0314600A1B7C9 /* Project object */;
+	rootObject = B3602F381CE19D0F0012EEA9 /* Project object */;
 }

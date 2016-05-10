@@ -1,0 +1,202 @@
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+LeaderServer: __init__
+LeaderServer: server_activate
+LeaderServer: waiting for request
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: verify_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 59516))
+FloodingServer: process_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 59516))
+FloodingServer: finish_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 59516))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingServer: add_other_address(('10.31.69.179', 59516))
+FloodingServer: New address ('10.31.69.179', 59516) is not properly formatted
+FloodingRequestHandler: recv()->"hello\n
+"
+FloodingRequestHandler: Invalid Data->"hello\n
+"
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x109bddd00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 59642))
+FloodingServer: process_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 59642))
+FloodingServer: finish_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 59642))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingServer: add_other_address(('10.31.69.179', 59642))
+FloodingServer: New address ('10.31.69.179', 59642) is not properly formatted
+FloodingRequestHandler: recv()->"hello\n
+"
+FloodingRequestHandler: Invalid Data->"hello\n
+"
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x109bddd00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61266))
+FloodingServer: process_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61266))
+FloodingServer: finish_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61266))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingServer: add_other_address(('10.31.69.179', 61266))
+FloodingServer: New address ('10.31.69.179', 61266) is not properly formatted
+FloodingRequestHandler: recv()->"hello\n
+"
+FloodingRequestHandler: Invalid Data->"hello\n
+"
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x109bddd00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61308))
+FloodingServer: process_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61308))
+FloodingServer: finish_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61308))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingServer: add_other_address(('10.31.69.179', 61308))
+FloodingServer: New address ('10.31.69.179', 61308) is not properly formatted
+FloodingRequestHandler: recv()->"3
+"
+FloodingServer: send_to_others
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x109bddd00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61310))
+FloodingServer: process_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61310))
+FloodingServer: finish_request(<socket._socketobject object at 0x109bddd00>, ('10.31.69.179', 61310))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingServer: add_other_address(('10.31.69.179', 61310))
+FloodingServer: New address ('10.31.69.179', 61310) is not properly formatted
+FloodingRequestHandler: recv()->"3
+"
+FloodingServer: send_to_others
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x109bddd00>)
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: verify_request(<socket._socketobject object at 0x101428d00>, ('10.31.69.179', 61368))
+FloodingServer: process_request(<socket._socketobject object at 0x101428d00>, ('10.31.69.179', 61368))
+FloodingServer: finish_request(<socket._socketobject object at 0x101428d00>, ('10.31.69.179', 61368))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"3
+"
+FloodingServer: send_to_others
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x101428d00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x101428d00>, ('10.31.70.221', 51191))
+FloodingServer: process_request(<socket._socketobject object at 0x101428d00>, ('10.31.70.221', 51191))
+FloodingServer: finish_request(<socket._socketobject object at 0x101428d00>, ('10.31.70.221', 51191))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x101428d00>)
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: __init__
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: verify_request(<socket._socketobject object at 0x106f1ed00>, ('10.31.69.179', 61899))
+FloodingServer: process_request(<socket._socketobject object at 0x106f1ed00>, ('10.31.69.179', 61899))
+FloodingServer: finish_request(<socket._socketobject object at 0x106f1ed00>, ('10.31.69.179', 61899))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"3
+"
+FloodingServer: send_to_others
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x106f1ed00>)
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: verify_request(<socket._socketobject object at 0x103d16050>, ('10.31.69.179', 62012))
+FloodingServer: process_request(<socket._socketobject object at 0x103d16050>, ('10.31.69.179', 62012))
+FloodingServer: finish_request(<socket._socketobject object at 0x103d16050>, ('10.31.69.179', 62012))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"\n2
+"
+FloodingRequestHandler: Invalid Data->"\n2
+"
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x103d16050>)
+FloodingServer: verify_request(<socket._socketobject object at 0x103d16050>, ('10.31.69.179', 62013))
+FloodingServer: process_request(<socket._socketobject object at 0x103d16050>, ('10.31.69.179', 62013))
+FloodingServer: finish_request(<socket._socketobject object at 0x103d16050>, ('10.31.69.179', 62013))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"2
+"
+FloodingServer: send_to_others
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x103d16050>)
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: verify_request(<socket._socketobject object at 0x10ab9bd00>, ('10.31.69.179', 62147))
+FloodingServer: process_request(<socket._socketobject object at 0x10ab9bd00>, ('10.31.69.179', 62147))
+FloodingServer: finish_request(<socket._socketobject object at 0x10ab9bd00>, ('10.31.69.179', 62147))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"2
+"
+FloodingServer: send_to_others
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x10ab9bd00>)
+FloodingServer: __init__
+FloodingServer: server_activate
+FloodingServer: waiting for request
+FloodingServer: verify_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62167))
+FloodingServer: process_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62167))
+FloodingServer: finish_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62167))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"2
+"
+FloodingServer: send_to_others
+FloodingServer: Sent 2 to ('10.31.69.179', 9003) using 2 bytes
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x10cb5fd00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62168))
+FloodingServer: process_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62168))
+FloodingServer: finish_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62168))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"2
+"
+FloodingServer: send_to_others
+FloodingServer: Sent 2 to ('10.31.69.179', 9003) using 2 bytes
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x10cb5fd00>)
+FloodingServer: verify_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62169))
+FloodingServer: process_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62169))
+FloodingServer: finish_request(<socket._socketobject object at 0x10cb5fd00>, ('10.31.69.179', 62169))
+FloodingRequestHandler: __init__
+FloodingRequestHandler: setup
+FloodingRequestHandler: handle
+FloodingRequestHandler: recv()->"2
+"
+FloodingServer: send_to_others
+FloodingServer: Sent 2 to ('10.31.69.179', 9003) using 2 bytes
+FloodingRequestHandler: finish
+FloodingServer: close_request(<socket._socketobject object at 0x10cb5fd00>)
